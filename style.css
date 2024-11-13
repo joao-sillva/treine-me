@@ -50,6 +50,12 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav ul,
 main section h1 {
   font-family: "Mulish", sans-serif;
@@ -89,6 +95,18 @@ section button {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+section button:hover {
+  background: #52a588;
+}
+
+footer {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 footer a {
