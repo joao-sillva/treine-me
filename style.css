@@ -6,6 +6,12 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 0%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
 }
 
 #page {
@@ -105,4 +111,10 @@ footer {
 
 footer a {
   font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
