@@ -75,6 +75,26 @@ section p {
   line-height: 28px;
 }
 
+section button {
+  font-family: "Open Sans", sans-serif;
+  background: #69B99D;
+  color: #F9F9F9;
+
+  border: none;
+  border-radius: 4px;
+  padding: 15px 32px;
+  gap: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+section button:hover {
+  background: #52a588;
+}
+
 footer {
   margin-top: 80px;
   text-align: center;
