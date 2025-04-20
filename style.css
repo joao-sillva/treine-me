@@ -49,6 +49,12 @@ main section h1 {
   font-family: "Mulish", sans-serif;
 }
 
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 section h1 {
   width: 490px;
   font-size: 49px;
