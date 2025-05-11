@@ -123,3 +123,39 @@ footer a {
   bottom: 0;
   right: 0;
 }
+
+@media (width <= 78em) {
+  #page {
+    --max-width: 768px;
+    width: min(var(--max-width), 100% - 2.4rem * 2);
+  }
+
+  
+
+  nav {
+    flex-direction: column;
+  }
+
+  main,
+  main section {
+    padding-inline: 1rem;
+    flex-direction: column;
+  }
+  
+  main img {
+    width: 100%;
+  }
+
+  section h1 {
+    width: 30rem;
+    font-size: 3rem;
+  }
+
+  section button {
+    padding: 1.5rem 2.4rem;
+  }
+
+  #balls {
+    display: none;
+  }
+}
